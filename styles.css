@@ -1,0 +1,28 @@
+/* styles.css */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .book-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .book-card {
+            transition: all 0.3s ease;
+        }
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            .print-only {
+                display: block !important;
+            }
+            body {
+                background-color: white;
+                padding: 20px;
+            }
+            #borrowers-section {
+                page-break-before: always;
+            }
+        }
+    
