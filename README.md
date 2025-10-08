@@ -62,8 +62,14 @@ Access the "Print Options" dropdown to generate reports:
 Print All Books: Complete library inventory
 Print Search Results: Current filtered/searched books
 Print Checked Out Books: Books currently on loan with borrower details
+
+## 🌐 Live Demo
+
+**[📚 Try the Live Demo](https://patfarmurs.github.io/book-library-management/)**
+
 🛠️ Technical Specifications
 Frontend Technologies
+
 ✅ HTML5 with semantic markup
 ✅ Vanilla JavaScript (ES6+)
 ✅ Tailwind CSS for styling
